@@ -19,17 +19,17 @@ find / -name "file.txt"  # Search for a file
 ## 2. Permissions and Ownership
 
 ```bash
-chmod 755 script.sh        # Change permissions
-chown user:group file      # Change ownership
-ls -l                      # Check permissions
+chmod 755 script.sh         # Change permissions
+chown user:group file       # Change ownership
+ls -l                       # Check permissions
 ```
 
 ## 3. User and Group Management
 
 ```bash
-useradd newuser            # Add new user
-passwd newuser             # Set password for user
-usermod -aG group user     # Add user to group
+useradd newuser             # Add new user
+passwd newuser              # Set password for user
+usermod -aG group user      # Add user to group
 groupadd devops             # Create new group
 id user                     # Check groups of a user
 ```
@@ -37,35 +37,35 @@ id user                     # Check groups of a user
 ## 4. Process and Service Management
 
 ```bash
-top                        # Monitor system resources
-htop                       # Interactive process viewer
-ps aux                     # Show all processes
-kill -9 PID                # Force kill a process
-systemctl status nginx     # Check service status
-systemctl start nginx      # Start a service
-systemctl stop nginx       # Stop a service
+top                         # Monitor system resources
+htop                        # Interactive process viewer
+ps aux                      # Show all processes
+kill -9 PID                 # Force kill a process
+systemctl status nginx      # Check service status
+systemctl start nginx       # Start a service
+systemctl stop nginx        # Stop a service
 ```
 
 ## 5. Networking
 
 ```bash
-ip a                       # Show IP addresses
-ifconfig                   # View network config (older)
-ip route                   # Show routing table
-ping 8.8.8.8               # Ping a host
-traceroute google.com      # Trace route to host
-netstat -tulnp             # List listening ports and services
-ss -tulwn                  # Faster netstat alternative
+ip a                        # Show IP addresses
+ifconfig                    # View network config (older)
+ip route                    # Show routing table
+ping 8.8.8.8                # Ping a host
+traceroute google.com       # Trace route to host
+netstat -tulnp              # List listening ports and services
+ss -tulwn                   # Faster netstat alternative
 ```
 
 ## 6. Disk and File System
 
 ```bash
-df -h                      # Disk usage in human readable
-du -sh *                   # Directory sizes in current path
-mount /dev/sdb1 /mnt       # Mount a device
-umount /mnt                # Unmount a device
-lsblk                      # List block devices
+df -h                       # Disk usage in human readable
+du -sh *                    # Directory sizes in current path
+mount /dev/sdb1 /mnt        # Mount a device
+umount /mnt                 # Unmount a device
+lsblk                       # List block devices
 ```
 
 ## 7. Archiving and Compression
