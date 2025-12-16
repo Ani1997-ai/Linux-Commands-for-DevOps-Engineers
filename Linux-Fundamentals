@@ -1,6 +1,6 @@
-🐧 Linux Fundamentals
+## 🐧 Linux Fundamentals
 
-1️⃣ What is Linux?
+# 1️⃣ What is Linux?
 
 Linux is an Operating System (like Windows) but:
 	•	Free & Open Source
@@ -11,7 +11,7 @@ Linux is an Operating System (like Windows) but:
 
 ⸻
 
-2️⃣ Linux Architecture (Easy)
+# 2️⃣ Linux Architecture (Easy)
 
 User
  ↓
@@ -27,7 +27,7 @@ Hardware
 
 ⸻
 
-3️⃣ Linux File System Structure
+# 3️⃣ Linux File System Structure
 
 Everything starts from / (root)
 
