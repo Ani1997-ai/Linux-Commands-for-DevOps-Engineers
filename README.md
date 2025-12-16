@@ -124,6 +124,6 @@ strace ./script.sh            # Debug system calls
 
 Practice these commands in VirtualBox / VMware, AWS EC2, Azure VM, GCP Compute Engine.
 
-Hands-on practice is the key to mastering DevOps 🚀
+Hands-on practice is the key to mastering DevOps.
 
 Real-world familiarity builds confidence for troubleshooting and automation tasks.
