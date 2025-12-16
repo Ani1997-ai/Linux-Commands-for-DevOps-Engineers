@@ -14,3 +14,13 @@ rm -r dir       # Remove directory recursively
 cp file1 file2  # Copy file
 mv old new      # Move or rename file
 find / -name "file.txt"  # Search for a file
+```
+
+## 🔐 2. Permissions and Ownership
+
+```bash
+chmod 755 script.sh         # Change permissions
+chown user:group file       # Change ownership
+ls -l                       # Check permissions
+
+```
